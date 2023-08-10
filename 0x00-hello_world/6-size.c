@@ -4,7 +4,7 @@
  * main - Print the size of various types based on
  *	the computer it is compiled and run on..
  *
- *	Retrun: Always 0.
+ *	Return: Always 0.
  */
 int main(void)
 {
