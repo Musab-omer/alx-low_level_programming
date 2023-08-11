@@ -21,15 +21,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("is nagative\n");
+		printf("%d is nagative\n", n);
 	}
 	else
 	{
-		printf("is Zero\n");
+		printf("%d is Zero\n", n);
 	}
 	return (0);
 }
