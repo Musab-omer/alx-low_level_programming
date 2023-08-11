@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: this program prints all possible combinations of single-digit
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	int i = 0;
+
+	for (i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			putchar(i + '0');
+			putchar(j + '0');
+			putchar(',');
+		}
+	}
+
+	putchar('\n');
+	return (0);
+}
