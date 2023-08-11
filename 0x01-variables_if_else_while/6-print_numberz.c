@@ -8,29 +8,26 @@
  *
  * Return: Always 0 (success)
  *
- * Converter: - giet input as integer type and
- * convert it to the it's crosponding
+ * printDigits: - Convert int digits to  crosponding
  * ASCII which lead to char that can be
  * printed using putchar() function
  *
- * @digit: is number we need to convert
+ * @i: input param
  */
-char converter(int digit)
+void printDigits(int i)
 {
-	return ('0' + digit);
+	while (i < 10)
+	{
+		putchar('0' + i);
+		i++;
+	}
 }
 
 int main(void)
 {
 	int i = 0;
-	char ch;
 
-	while (i < 10)
-	{
-		ch = converter(i);
-		putchar(ch);
-		i++;
-	}
+	printDigits(i);
 	printf("\n");
 	return (0);
 }
