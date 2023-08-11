@@ -17,13 +17,13 @@ int main(void)
 	{
 		printf("is Positive\n");
 	}
-	else if (n == 0)
-	{
-		printf("is Zero\n");
-	}
 	else if (n < 0)
 	{
-		printf("is negative\n");
+		printf("is nagative\n");
+	}
+	else
+	{
+		printf("is Zero\n");
 	}
 	/**
 	 *  return value of main Always Success (0)
