@@ -2,12 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main -print random number every time whenever program executed
+ *
+ * Return Alwyes success (0)
+*/
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -18,9 +21,12 @@ int main(void)
 	{
 		printf("is Zero\n");
 	}
-	else if (n < 0) 
+	else if (n < 0)
 	{
 		printf("is negative\n");
 	}
+	/**
+	 *  return value of main Always Success (0)
+	 */
 	return (0);
 }
