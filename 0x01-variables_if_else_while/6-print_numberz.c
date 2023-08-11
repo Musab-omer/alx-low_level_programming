@@ -28,6 +28,6 @@ int main(void)
 	int i = 0;
 
 	printDigits(i);
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
